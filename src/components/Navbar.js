@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import { Link } from "react-scroll";
-import { IoIosArrowDropdown } from "react-icons/io";
-import { IoIosArrowDropup } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { ImCross } from "react-icons/im";
+
+import { IoMdDownload } from "react-icons/io";
 
  function Navbar() {
     const [showNav,setShowNav]=useState(false);
   return (
     <div className='navbar '>
+      <a className='resume' href='./assets/new_cv2.pdf' download={true}>
+        < IoMdDownload />
+        <p>Resume</p>
+      </a>
       <div onClick={()=>{setShowNav(!showNav)}} className='nav-button'>
-      {showNav?(<IoIosArrowDropup />):(<IoIosArrowDropdown />)}
+      {showNav?(<ImCross />):(<GiHamburgerMenu />)}
 
       </div>
       <div  className= {!showNav?'nav-items visible-none':'nav-items'}>

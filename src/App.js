@@ -6,7 +6,6 @@ import Skills from './components/Skills.js';
 import Projects from './components/Projects.js';
 import Education from './components/Education.js';
 import Contact from './components/Contact.js'
-import { IoMdDownload } from "react-icons/io";
 function App() {
   return (
     <div className="App">
@@ -15,10 +14,7 @@ function App() {
       <section id="skills"><Skills/></section>
       <section id="projects"><Projects/></section>
       <section id="education"><Education/></section>
-      <a className='resume' href='./assets/new_cv2.pdf' download={true}>
-        < IoMdDownload />
-        <p>Resume</p>
-      </a>
+      
       <Contact/>
       <div className='footer'>
         Made with ♥️ by Kaif
