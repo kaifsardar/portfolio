@@ -33,14 +33,12 @@ const Banner = () => {
             <img className='myphoto' src='./assets/myphoto.png'/>
             <div className='contact-links'>
                 <h2>Kaif Sardar</h2>
-                <p className='banner-education'>CS, Jadavpur University
+                <p className='banner-education'>CSE, Jadavpur University
                 </p>
                 <a href='https://www.linkedin.com/in/kaifsardar' target='_blank'><FaLinkedin /></a>
                 <a href='https://github.com/kaifsardar' target='_blank'><FaGithub /></a>
                 <a href='https://www.geeksforgeeks.org/user/kaifsardar/' target='_blank'><SiGeeksforgeeks /></a>
                 <a href='https://leetcode.com/u/Kaif_JU_CSE/' target='_blank'><SiLeetcode /></a>
-
-
             </div>
 
         </div>

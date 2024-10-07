@@ -28,7 +28,7 @@ const Skills = () => {
             <button className={skill==='Tools'?'selected-button':''} onClick={onClickHandeler}>Tools</button>
             </div>
             <div>
-            <button className={skill==='CourseWorks'?'selected-button':''} onClick={onClickHandeler}>CourseWorks</button>
+            <button className={skill==='CourseWork'?'selected-button':''} onClick={onClickHandeler}>CourseWork</button>
             </div>
         </div>
         <div className='skills'>

@@ -45,7 +45,7 @@ const skills={
             percent:80,
         },
     ],
-    'CourseWorks':[
+    'CourseWork':[
         {
             name:'Data Structure',
             percent:90,
