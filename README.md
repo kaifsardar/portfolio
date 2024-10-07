@@ -4,7 +4,7 @@ Welcome to my portfolio website! This project showcases my work, skills, and pro
 
 ## About Me
 
-I am a [CS Student] with a passion for [Software Development].
+I am a CS Student with a passion for [Software Development].
 
 ## Features
 
